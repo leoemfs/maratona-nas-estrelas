@@ -1,0 +1,28 @@
+/*zerando o css padrao da pagia para garantir igualdade em todos os navegadores*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/*definando configurações para as imagens utilizadas na aplicação*/
+img {
+  max-width: 100%;
+}
+/*definido "itens" para utilização na aplicação*/
+:root {
+  --color-primary: #f0d800;
+  --color-grey-1: #707070;
+  --color-grey-2: #ffffff;
+  --color-grey-3: #1e1e1e;
+  --color-title-1: #000000;
+  --text-color-1: #c7c7c7cc;
+}
+/*definindo uma tipografia padrao para a aplicação*/
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
